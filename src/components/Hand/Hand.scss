@@ -1,0 +1,25 @@
+.hand {
+    &.winner {
+        background: gold;
+    }
+
+    .card {
+        margin: 8px;
+    }
+
+    .border {
+        border: 2px solid;
+
+        &.red {
+            border-color: red;
+        }
+
+        &.aquamarine {
+            border-color: aquamarine;
+        }
+
+        &.blue {
+            border-color: blue;
+        }
+    }
+}
